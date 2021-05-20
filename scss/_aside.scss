@@ -1,0 +1,17 @@
+aside {
+    position: absolute;
+    right: 33px;
+    top: 120px;
+}
+
+.aside {
+    &__content {
+        background: #FAFAFA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+}

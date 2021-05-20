@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 33px;
+}
+.divider {
+    border: 1px solid #E0E0E0;
+    height: 1px;
+    width: 100%;
+}
+
+@import "_header";
+@import "_aside";
+
+@import "_media";

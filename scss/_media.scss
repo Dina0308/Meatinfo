@@ -1,0 +1,21 @@
+@media screen and (max-width: 1168px) {
+    aside {
+        position: relative;
+        display: flex;
+        top: 30px;
+        left: 33px;
+        .aside__content {
+            
+            margin-right: 20px;
+
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        &__search {
+            width: auto;
+        }
+    }
+}
