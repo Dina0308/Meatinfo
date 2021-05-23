@@ -1,0 +1,29 @@
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 56px;
+    height: 56px;
+    text-align: center;
+    background: #005FAE;
+    border-radius: 100%;
+    cursor: pointer;
+    &:hover {
+        opacity: .8;
+    }
+    &:active {
+        opacity: .5;
+    }
+    a {
+        display: block;
+        width: 100%;
+        
+    }
+    i {
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 14px;
+    }
+}

@@ -16,7 +16,7 @@
         <div class="header__blue"></div>
         <div class="header__gray"></div>
         <div class="container">
-            <p class="header__way">Главная / Мясные компании в Москве / <span>Преображенский МПК, ООО</span></p>
+            <div class="header__way__wrapper"><a href="#" class="header__way">Главная</a> / <a href="#" class="header__way">Мясные компании в Москве</a> / <span>Преображенский МПК, ООО</span></div>
             <form class="header__search" action="#" method="get">
                 <input  name="search" placeholder="Поиск по компаниям" type="search">
                 <button type="submit"></button>
@@ -38,7 +38,7 @@
             <div class="main__serv">
                 <div class="main__serv__links">
                     <div class="main__serv__links_wrapper"><i class="fa fa-eye" aria-hidden="true"></i><a href="#">578 (+2)</a></div>
-                    <div class="main__serv__links_wrapper"><i class="fa fa-commenting-o" aria-hidden="true"></i><a href="#">Оставить отзыв</a></div>
+                    <div class="main__serv__links_wrapper"><i class="fa fa-commenting-o" aria-hidden="true"></i><a class="rev" href="#">Оставить отзыв</a></div>
                 </div>
                 <a href="#" class="main__serv__btn cli">Работаете в этой компании?</a>
                 <a href="#" class="main__serv__btn in">Отменить запрос в сотрудники</a>
@@ -293,6 +293,28 @@
                             <span>Товары и услуги:</span> Мясо замороженное, мясо охлажденное, свинина, субпродукты
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="pageup"><a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
+        <div class="overlay">
+            <div class="modal">
+                <a href="#" class="modal__regul">Правила публикации отзывов</a>
+                <div class="modal__content">
+                    <div class="modal__wrapper">
+                        <div class="modal__ava"><img src="img/photo.png" alt="ava"></div>
+                        <div>
+                            <p class="modal__name">Гость</p>
+                            <p class="modal__text">Начните отзыв с выставления оценки</p>
+                        </div>
+                    </div>
+                    <form action="#">
+                        <textarea class="modal__textarea" placeholder="Сотрудничали с компанией? Расскажите как это было!" name="modal"></textarea>
+                        <div class="modal__btn__wrapper">
+                            <input type="file" accept="image/*">
+                            <input class="modal__close" type="submit">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

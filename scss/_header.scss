@@ -11,10 +11,18 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     }
     &__way {
-        margin-top: 32px;
+        
         font-size: 12px;
         line-height: 16px;
         color: #666666;
+        text-decoration: none;
+        &:hover {
+            color: #666666;
+            text-decoration: underline;
+        }
+        &__wrapper {
+            margin-top: 32px;
+        }
         span {
             color: #000;
         }

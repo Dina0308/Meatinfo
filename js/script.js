@@ -26,5 +26,26 @@ $('.in').on('click', function(){
     });
   });
 
-  
+//modal 
 
+$('.rev').on('click', function() {
+  $('.overlay, .modal').fadeIn('slow');
+});
+$('.modal__close').on('click', function() {
+  $('.overlay, .modal').fadeOut('slow');
+});
+
+// scroll 
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 500) {
+      $('.pageup').fadeIn();
+  } else {
+      $('.pageup').fadeOut();
+  }
+});
+
+$("a[href^='#']").click(function(){
+  const _href = $(this).attr("href");
+  $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+  return false;
+});
