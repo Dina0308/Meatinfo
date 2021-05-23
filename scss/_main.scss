@@ -285,6 +285,7 @@ input[type=checkbox] {
 }
 .info__link .remove {display: none;}
 
+//info
 #read:checked ~.crop-text {
     display: block;
 }
@@ -293,4 +294,36 @@ input[type=checkbox] {
 }
 #read:checked ~.info__link .read {
     display: none;
+}
+
+//map
+.info__link__map {
+    display: block;
+    color: #005FAE;
+    font-size: 14px;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+#read__map:checked ~.main__info__map {
+    display: block;
+}
+#read__map:checked ~.info__link__map .remove__map {
+    display: inline-block;
+}
+#read__map:checked ~.info__link__map .read__map {
+    display: none;
+}
+.main__info__map, .remove__map {
+    display: none;
+}
+.info__link__map_768 {
+    display: none;
+    color: #005FAE;
+    font-size: 14px;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
 }

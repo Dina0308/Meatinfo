@@ -65,6 +65,15 @@
     .slider {
         display: block;
     }
+    .modal {
+        width: auto;
+    }
+    .info__link__map_768 {
+        display: block;
+    }
+    .info__link__map {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -88,5 +97,14 @@
                 }
             }
         
+    }
+    .modal {
+        &__btn__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        &__close {
+            margin-top: 7px;
+        }
     }
 }
