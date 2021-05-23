@@ -43,7 +43,12 @@
     }
 }
 @media screen and (max-width: 768px) {
-
+    .main__photo {
+        display: none;
+    }
+    .slider {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 575px) {

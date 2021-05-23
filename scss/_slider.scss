@@ -1,0 +1,28 @@
+.slider {
+    display: none;
+    margin-top: 20px;
+    &__item {
+        position: relative;
+        max-width: 600px;
+        height: auto;
+    }
+    &__number {
+        position: absolute;
+        bottom: 43px;
+        right: 10px;
+        color: #fff;
+        border-radius: 10px;
+        padding: 3px;
+        background: rgba(0, 0, 0, .5);
+    }
+    &__photo {
+            max-width: 600px;
+            max-height: 500px;
+            position: relative;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    
+}
