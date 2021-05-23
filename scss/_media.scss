@@ -55,5 +55,17 @@
                 left: 0;
             }
         }
+        &__table {
+            
+            &__item {
+                &:first-child {
+                    display: none;
+                }
+                flex-direction: column;
+                align-items: flex-start;
+                margin-bottom: 7px;
+                }
+            }
+        
     }
 }

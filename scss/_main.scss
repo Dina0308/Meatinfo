@@ -75,8 +75,7 @@ main {
         margin-top: 32px;
     }
     &__table {
-        min-width: 600px;
-        overflow: auto;
+        
         &__item {
             display: flex;
             justify-content: space-between;
@@ -177,6 +176,7 @@ main {
                 line-height: 133%;
                 color: #999999;
                 margin-bottom: 0;
+                max-width: 176px;
             }
         }
     }
