@@ -30,6 +30,18 @@
         &__info {
             max-width: 100%;
             margin-top: 20px;
+            .crop-text {
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow-y: hidden;
+            }
+            .info__link {
+                display: block;
+            }
+            input[type=checkbox] {
+                display: none;
+            }
             .logo {
                 width: 120px;
                 float: left;
@@ -43,6 +55,9 @@
     }
 }
 @media screen and (max-width: 768px) {
+    main {
+        padding-bottom: 30px;
+    }
     .main__photo {
         display: none;
     }

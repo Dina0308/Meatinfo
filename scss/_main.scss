@@ -217,6 +217,9 @@ main {
                 color: #999999;
                 margin-bottom: 0;
                 max-width: 176px;
+                white-space: nowrap;
+                overflow-x: hidden;
+                text-overflow: ellipsis;
             }
         }
     }
@@ -263,7 +266,31 @@ main {
                 }
             }
         }
+        
         }
     
     
+}
+input[type=checkbox] {
+    display: none;
+}
+.info__link {
+    display: none;
+    color: #005FAE;
+    font-size: 14px;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.info__link .remove {display: none;}
+
+#read:checked ~.crop-text {
+    display: block;
+}
+#read:checked ~.info__link .remove {
+    display: inline-block;
+}
+#read:checked ~.info__link .read {
+    display: none;
 }

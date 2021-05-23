@@ -1,3 +1,4 @@
+//button
 $('.cli').on('click', function(){
     $('.in').fadeIn();
   });
@@ -5,6 +6,7 @@ $('.in').on('click', function(){
     $('.in').fadeOut();
   });
 
+//approval
   $(".app__text").hide();
   $( ".app" ).mouseenter(function() {
     $(".app__text").show();
@@ -23,3 +25,6 @@ $('.in').on('click', function(){
       
     });
   });
+
+  
+
